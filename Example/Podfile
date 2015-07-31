@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CDABackgroundOperations_Example', :exclusive => true do
+  pod "CDABackgroundOperations", :path => "../"
+end
+
+target 'CDABackgroundOperations_Tests', :exclusive => true do
+  pod "CDABackgroundOperations", :path => "../"
+
+  pod 'Kiwi'
+end
