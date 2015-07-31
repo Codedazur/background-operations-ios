@@ -10,18 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "CDABackgroundOperations"
   s.version          = "0.1.0"
-  s.summary          = "A short description of CDABackgroundOperations."
+  s.summary          = "A wrapper library to work with NSOperationQueues and NSOperations"
   s.description      = <<-DESC
-                       An optional longer description of CDABackgroundOperations
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Makes it easy to use background operations
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/CDABackgroundOperations"
+  s.homepage         = "https://github.com/Codedazur/background-operations-ios"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "tamarabernad" => "tamara@codedazur.es" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/CDABackgroundOperations.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Codedazur/background-operations-ios.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
