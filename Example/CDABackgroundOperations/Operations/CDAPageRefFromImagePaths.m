@@ -52,6 +52,7 @@
         [tempPages addObject:(__bridge id)(pageRef)];
     }
     [self setResult:[NSArray arrayWithArray:tempPages]];
+    CGDataProviderRelease(provider);
     CGPDFDocumentRelease(pdf);
 }
 
