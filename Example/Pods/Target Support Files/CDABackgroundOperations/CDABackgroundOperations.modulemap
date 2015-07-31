@@ -1,0 +1,6 @@
+framework module CDABackgroundOperations {
+  umbrella header "CDABackgroundOperations-umbrella.h"
+
+  export *
+  module * { export * }
+}

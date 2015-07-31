@@ -1,0 +1,6 @@
+framework module Pods_CDABackgroundOperations_Tests {
+  umbrella header "Pods-CDABackgroundOperations_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

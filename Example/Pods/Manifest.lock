@@ -1,0 +1,20 @@
+PODS:
+  - CDABackgroundOperations (0.1.0):
+    - CDAUtils
+  - CDAUtils (0.1.1)
+  - Kiwi (2.3.1)
+
+DEPENDENCIES:
+  - CDABackgroundOperations (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  CDABackgroundOperations:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDABackgroundOperations: f107849154ab94731764879e4a4aa5a77c9af76e
+  CDAUtils: 83819c449c6d1a0ac34bacad061c75a62553a91b
+  Kiwi: f038a6c61f7a9e4d7766bff5717aa3b3fdb75f55
+
+COCOAPODS: 0.38.2
