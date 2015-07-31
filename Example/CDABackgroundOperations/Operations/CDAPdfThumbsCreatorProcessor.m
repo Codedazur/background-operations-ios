@@ -42,7 +42,7 @@
         [self.pendingOperations.processesInProgress removeObjectForKey:indexPath];
     }
     
-    for (int i=0;i<visiblePaths.count;i++){
+    for (int i=0;i<toBeStarted.count;i++){
         CDABGTaskData *processData = [[CDABGTaskData alloc] initWithName:@"Process pdf thumb"
                                                              AndUserInfo:@{@"page-ref":[pageRefs objectAtIndex:i],
                                                                            @"thumb-size": [NSValue valueWithCGSize:thumbSize],

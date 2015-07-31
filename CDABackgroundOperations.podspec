@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "CDABackgroundOperations"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A wrapper library to work with NSOperationQueues and NSOperations"
   s.description      = <<-DESC
                        Makes it easy to use background operations
