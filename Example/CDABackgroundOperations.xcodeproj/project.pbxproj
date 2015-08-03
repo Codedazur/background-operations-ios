@@ -21,8 +21,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		63A7EC181B6B7CEB000236DE /* test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 63A7EC171B6B7CEB000236DE /* test.pdf */; };
-		63A7EC1E1B6B7F68000236DE /* CDAPageRefFromImagePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7EC1B1B6B7F68000236DE /* CDAPageRefFromImagePaths.m */; };
-		63A7EC1F1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A7EC1D1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.m */; };
 		63BECF8C1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BECF8B1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.m */; };
 		63BECF901B6B8B4E0048352D /* CDAPdfThumbCreationTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BECF8F1B6B8B4E0048352D /* CDAPdfThumbCreationTask.m */; };
 		63BECF951B6B95890048352D /* CDACollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BECF931B6B95890048352D /* CDACollectionViewCell.m */; };
@@ -65,10 +63,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		63A7EC171B6B7CEB000236DE /* test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test.pdf; sourceTree = "<group>"; };
-		63A7EC1A1B6B7F68000236DE /* CDAPageRefFromImagePaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPageRefFromImagePaths.h; sourceTree = "<group>"; };
-		63A7EC1B1B6B7F68000236DE /* CDAPageRefFromImagePaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAPageRefFromImagePaths.m; sourceTree = "<group>"; };
-		63A7EC1C1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPageRefFromImagePathsProcessor.h; sourceTree = "<group>"; };
-		63A7EC1D1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAPageRefFromImagePathsProcessor.m; sourceTree = "<group>"; };
 		63BECF8A1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPdfThumbsCreatorProcessor.h; sourceTree = "<group>"; };
 		63BECF8B1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDAPdfThumbsCreatorProcessor.m; sourceTree = "<group>"; };
 		63BECF8E1B6B8B4E0048352D /* CDAPdfThumbCreationTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPdfThumbCreationTask.h; sourceTree = "<group>"; };
@@ -223,10 +217,6 @@
 		63A7EC191B6B7F68000236DE /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				63A7EC1A1B6B7F68000236DE /* CDAPageRefFromImagePaths.h */,
-				63A7EC1B1B6B7F68000236DE /* CDAPageRefFromImagePaths.m */,
-				63A7EC1C1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.h */,
-				63A7EC1D1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.m */,
 				63BECF8A1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.h */,
 				63BECF8B1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.m */,
 				63BECF8E1B6B8B4E0048352D /* CDAPdfThumbCreationTask.h */,
@@ -455,11 +445,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A7EC1F1B6B7F68000236DE /* CDAPageRefFromImagePathsProcessor.m in Sources */,
 				63BECF951B6B95890048352D /* CDACollectionViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* CDAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CDAViewController.m in Sources */,
-				63A7EC1E1B6B7F68000236DE /* CDAPageRefFromImagePaths.m in Sources */,
 				63BECF8C1B6B890D0048352D /* CDAPdfThumbsCreatorProcessor.m in Sources */,
 				63BECF901B6B8B4E0048352D /* CDAPdfThumbCreationTask.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
