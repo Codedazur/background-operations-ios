@@ -28,6 +28,7 @@
 @synthesize processesInProgress = _processesInProgress, processesQueue = _processesQueue;
 - (instancetype)init{
     if(!(self = [super init]))return nil;
+    self.processesInProgress = [NSMutableDictionary new];
     self.processesQueue = [[NSOperationQueue alloc] init];
     self.processesQueue.name = NSStringFromClass([CDABGPendingTasks class]);
     return self;
